@@ -1,6 +1,6 @@
 # Proxxied — Issue Tracker
 
-This repository is the public issue tracker for [Proxxied](https://proxxied.com), a Magic: The Gathering proxy printing tool.
+This repository is the public issue tracker for [Proxxied](https://proxxied.com), a TCG proxy printing tool.
 
 ## Reporting a Bug
 
