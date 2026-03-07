@@ -1,0 +1,16 @@
+name: Feature Request
+description: Suggest an enhancement or new feature.
+title: "[Feature]: "
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a feature!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a clear and concise description of the feature you would like to see. Please include any screenshots, mockups, or extra details that help explain the feature.
+    validations:
+      required: true
