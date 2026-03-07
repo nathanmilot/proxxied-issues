@@ -1,0 +1,25 @@
+name: TCG Support Request
+description: Request support for a new Trading Card Game.
+title: "[TCG]: "
+labels: ["enhancement", "tcg-support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting support for a new TCG!
+  - type: input
+    id: tcg-name
+    attributes:
+      label: What TCG do you want support for?
+      description: The name of the Trading Card Game.
+      placeholder: e.g. Pokémon TCG, Yu-Gi-Oh!, Digimon
+    validations:
+      required: true
+  - type: textarea
+    id: art-source-apis
+    attributes:
+      label: Existing Art Source APIs
+      description: Are you aware of any existing APIs or databases that provide high-quality card art for this TCG? Please provide links if possible.
+      placeholder: e.g. https://api.pokemontcg.io/v2/cards
+    validations:
+      required: false
